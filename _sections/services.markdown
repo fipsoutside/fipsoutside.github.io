@@ -8,6 +8,16 @@ By engaging my services for a long term, you get all of the benefits of an in-ho
 
 ---
 
+### Market and Solutions Analysis
+
+There are many options to achieve FIPS compliance -- and most of them cost six-figures.
+
+I'll help to evaluate your needs, review the market for solutions, and deliver a detailed analysis of all available options.
+
+I can also assist in preparing RFPs and lead sales calls with solution providers to advocate for your needs and provide an unbiased evaluation of the solution offered.
+
+---
+
 ### Compliance Project Management
 
 A FIPS compliance and validation project has a lot of moving parts: there's compliance and cryptosystem analysis, technical integration, coordination with FIPS laboratories, algorithm and functional testing, and host of other small details.
@@ -32,22 +42,8 @@ I'll work with your engineering team to analzye your current cryptosystem and te
 
 ---
 
-### Market and Solutions Analysis
-
-There are many options to achieve FIPS compliance -- third-party vendors, open-source projects, full-service external consulting firms, and doing it all in-house. Depending on your exact situation, each of these approaches can have advantages and drawbacks.
-
-I'll help you evaluate your needs, review the market for solutions, and deliver a detailed analysis of all your available options. I'll also assist in preparing RFPs, and can lead sales calls with solution providers to advocate for your needs and provide an unbiased evaluation of the solution offered.
-
----
-
 ### FIPS Crash Courses
 
 Working through FIPS compliance and validation often involves nearly every part of your product team. When your organization has a baseline of FIPS knowledge, you can be assured that all of your team's efforts are moving in the right direction towards a common goal.
 
 I can lead a seminar with your team to establish this baseline of organizational knowlege, providing targeted information that is specifically relevant to your team members and compliance needs, while leaving out the firehose of detail that's not applicable to your use case.
-
----
-
-### Educational Resource
-
-Having access to an outside FIPS expert is great, but having this knowlege in-house is always beneficial. If you would like to invest in cultivating FIPS expertise within your organization, I am available to work with your team through seminars, coursework, and consultation.
