@@ -31,5 +31,3 @@ As a solo consultant, I can only sell you my time and expertise -- That's a good
 There are many ways you can pursue FIPS compliance -- large consulting firms, pre-validated software, open-source projects, or entirely in-house. Each of these approaches has its benefits and drawbacks, but without a neutral third party you may hear a lot more about the upsides than the downsides.
 
 My goal is to learn your individual needs inside-and-out, and help you find the solution that truly meets your organization's needs.
-
----
