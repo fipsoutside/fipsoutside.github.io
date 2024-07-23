@@ -1,0 +1,8 @@
+{% assign item = site.sections | where:"section-id", include.section-id  | first %}
+
+<section id="{{ item.section-id }}">
+    <div class="max-width-wrapper">
+        <h2>{{ item.title }}</h2>
+        {{ item.content }}
+    </div>
+</section>

@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'bitterbold';
+    src: url('../fonts/bitter-bold-webfont.woff2') format('woff2'),
+         url('../fonts/bitter-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bitterregular';
+    src: url('../fonts/bitter-regular-webfont.woff2') format('woff2'),
+         url('../fonts/bitter-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'interbold';
+    src: url('../fonts/inter-bold-webfont.woff2') format('woff2'),
+         url('../fonts/inter-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'interregular';
+    src: url('../fonts/inter-regular-webfont.woff2') format('woff2'),
+         url('../fonts/inter-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    --font-sans-serif:
+      "interregular", -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+      helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+    --font-serif:
+      "bitterregular", Iowan Old Style, Apple Garamond, Baskerville, Times New Roman,
+      Droid Serif, Times, Source Serif Pro, serif;
+    --font-bitter-bold:
+      "bitterbold", var(--font-serif);
+    --font-inter-bold: 
+      "interbold", var(--font-sans-serif);
+    --color-hero: hsl(200, 100%, 25%);
+    --color-one: hsl(200, 100%, 95%);;
+    --color-two: hsl(60, 100%, 94%);
+  }
+
+  html {
+    font-family: var(--font-sans-serif);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-bitter-bold);
+  }
+
+  h2 {
+    color: #444;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.125rem;
+    margin-bottom: 0.75rem;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 8px 16px;
+  }
+
+  header img {
+    line-height: 1;
+    width: 358px;
+    height: 70px;
+  }
+
+  .max-width-wrapper {
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  #contact-info {
+    color: white;
+    font-family: var(--font-serif);
+    min-width: fit-content;
+    text-wrap: nowrap;
+    align-self: end;
+  }
+
+  #hero {
+    background-color: var(--color-hero);
+    padding: 24px 0;
+    min-height: 50%;
+  }
+
+  #hero .max-width-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #hero-call {
+    font-family: var(--font-bitter-bold);
+    color: white;
+    font-size: 4rem;
+    margin-bottom: 8rem;
+  }
+
+  #hero-response {
+    font-family: var(--font-sans-serif);
+    color: white;
+    font-size: 3rem;
+    text-align: right;
+    margin-bottom: 0;
+  }
+
+  .spacer {
+    flex-basis: 75px;
+  }
+
+  hr {
+    color: white;
+    width: 90%;
+    margin: 1.5rem auto;
+  }
+
+  #content section {
+    padding: 16px 16px;
+  }
+
+  #contact-me p {
+    margin-bottom: 0;
+  }
+
+  #contact-me .max-width-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #how-i-help {
+    background-color: var(--color-one);
+  }
+
+  #why-me {
+    background-color: var(--color-two);
+  }
+
+  #services {
+    background-color: var(--color-one);
+  }
+
+  #footer-section {
+    background-color: black;
+    color: white;
+    min-height: 48px;
+  }
