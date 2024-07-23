@@ -167,8 +167,16 @@ html {
     background-color: var(--color-one);
   }
 
-  #footer-section {
+  footer {
     background-color: black;
     color: white;
-    min-height: 48px;
+    font-family: var(--font-serif);
+    min-height: 2em;
+    line-height: 2em;
+    padding: 0px 16px;
+  }
+
+  footer .max-width-wrapper {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
