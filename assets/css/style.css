@@ -106,7 +106,6 @@ html {
   #hero {
     background-color: var(--color-hero);
     padding: 24px 0;
-    min-height: 50%;
   }
 
   #hero .max-width-wrapper {
